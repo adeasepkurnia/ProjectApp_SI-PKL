@@ -1,0 +1,128 @@
+ERROR - 2021-08-07 10:11:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-08-07 10:11:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelTa.php(45): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Ppkl.php(22): App\Models\ModelTa->statusTa()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Ppkl->pendaftaran()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppkl))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-07 18:32:52 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:33:24 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:35:28 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:35:31 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:35:33 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:40:54 --> syntax error, unexpected single-quoted string "Ppkl", expecting "]"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Factories.php(149): class_exists('Config\\Filters')
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(305): config('Filters')
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::filters(NULL, false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(302): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::filters()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(392): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-08-07 18:41:08 --> syntax error, unexpected single-quoted string "Ppkl", expecting "]"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Factories.php(149): class_exists('Config\\Filters')
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(305): config('Filters')
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::filters(NULL, false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(302): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::filters()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(392): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-08-07 18:41:28 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->about()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:42:34 --> Invalid file: v_about.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_about.php')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->about()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-07 18:48:52 --> Invalid file: home/templat/template_frontend.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/templat/te...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('home/templat/te...', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_about', Array, true)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\About.php(14): view('v_about', Array)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\About->about()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

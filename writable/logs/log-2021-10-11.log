@@ -1,0 +1,412 @@
+ERROR - 2021-10-11 01:04:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-10-11 01:04:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelTa.php(45): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Auth.php(158): App\Models\ModelTa->statusTa()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Auth->loginSiswa()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-11 01:24:06 --> Undefined variable $daftar
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\Daftar\v_daftarmasuk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/Daftar/v_...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Daftarmasuk.php(23): view('admin/Daftar/v_...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Daftarmasuk->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftarmasuk))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-11 01:28:20 --> Undefined variable $absenmasuk
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\Daftar\v_absensiswa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/daftar/v_...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Absensiswa.php(21): view('admin/daftar/v_...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Absensiswa->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensiswa))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-11 01:29:00 --> Undefined variable $absen
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\Daftar\v_absensiswa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/daftar/v_...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Absensiswa.php(21): view('admin/daftar/v_...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Absensiswa->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensiswa))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-11 01:33:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Absensiswa.php(19): CodeIgniter\Model->__call('getBiodataSiswa', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Absensiswa->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensiswa))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-11 01:35:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Absensiswa.php(19): CodeIgniter\Model->__call('getBiodataSiswa', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Absensiswa->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensiswa))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-11 01:36:25 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Absensiswa.php(19): CodeIgniter\Model->__call('getBiodataSiswa', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Absensiswa->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensiswa))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-11 01:37:13 --> Class "App\Models\ModelAbsensiswa" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\Absensiswa->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-11 03:05:18 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelsiswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 03:08:50 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelsiswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 03:09:38 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelsiswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 03:11:26 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelsiswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 03:12:12 --> unlink(./berkas/1633939043_2b1f09ae123954): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./berkas/163393...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:13:54 --> unlink(./berkas/1633594625_9df9fd60f25fa1): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./berkas/163359...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('1')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:15:35 --> unlink(./berkas/1633594625_9df9fd60f25fa1): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./berkas/163359...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('1')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:16:12 --> unlink(berkas/1633594625_9df9fd60f25fa1): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(berkas/1...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('berkas/16335946...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('1')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:17:04 --> unlink(berkas1633939043_2b1f09ae123954): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(berkas16...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('berkas163393904...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:20:07 --> Undefined array key ""
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 03:20:37 --> unlink(surat_tugas/1633939043_2b1f09ae123954): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(surat_tu...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('surat_tugas/163...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('4')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:22:47 --> unlink(surat_tugas/1633940548_ed819eefb0560a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(surat_tu...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('surat_tugas/163...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:23:23 --> unlink(surat_tugas/1633940548_ed819eefb0560a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(surat_tu...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('surat_tugas/163...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:23:38 --> unlink(./surat_tugas/1633940548_ed819eefb0560a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:23:42 --> unlink(./surat_tugas/1633940548_ed819eefb0560a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:24:09 --> unlink(./surat_tugas/1633940548_ed819eefb0560a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:34:13 --> Undefined variable $data
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelSiswa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(166): App\Models\ModelSiswa->deleteBerkas(Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:35:08 --> unlink(./surat_tugas/foto.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/f...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('5')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:35:50 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:37:51 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 03:40:32 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:40:40 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:41:39 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:46:43 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:48:05 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:49:38 --> unlink(./surat_tugas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 04:58:05 --> unlink(./surat_tugas/1633946215_f860763f20baa8): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./surat_...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./surat_tugas/1...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('7')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 05:08:43 --> unlink(./berkas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./berkas/163394...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 05:08:49 --> unlink(./berkas/1633941342_f93082b86e33f6): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(161): unlink('./berkas/163394...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('6')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 05:15:53 --> array_key_exists(): Argument #2 ($array) must be of type array, CodeIgniter\HTTP\Files\UploadedFile given
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\HTTP\Files\FileCollection.php(139): array_key_exists('pdf', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\HTTP\Files\FileCollection.php(95): CodeIgniter\HTTP\Files\FileCollection->hasFile('berkas.pdf')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\HTTP\IncomingRequest.php(820): CodeIgniter\HTTP\Files\FileCollection->getFileMultiple('berkas.pdf')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Validation\FileRules.php(249): CodeIgniter\HTTP\IncomingRequest->getFileMultiple('berkas.pdf')
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Validation\Validation.php(312): CodeIgniter\Validation\FileRules->ext_in(NULL, Array, Array, NULL)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', NULL, Array, Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(121): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->addBerkas('1')
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-10-11 05:27:39 --> unlink(./berkas/1633947893_3eb40578aee367): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(162): unlink('./berkas/163394...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('9')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 05:39:36 --> Could not move file php8DD.tmp to berkas/ ()
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8DD.tmp', 'berkas/', '')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(144): CodeIgniter\HTTP\Files\UploadedFile->move('berkas/', 'application/pdf')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->addBerkas('1')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-11 05:50:42 --> Undefined variable $file
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->addBerkas('1')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-11 05:51:03 --> Call to a member function getClientExtension() on string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->addBerkas('1')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-11 22:05:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-10-11 22:05:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelTa.php(45): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Auth.php(158): App\Models\ModelTa->statusTa()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Auth->loginSiswa()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-11 22:28:03 --> unlink(./berkas/1633948440_ad7d950d886f6b): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./berkas...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(164): unlink('./berkas/163394...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->deleteBerkas('11')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

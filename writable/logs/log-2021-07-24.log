@@ -1,0 +1,29 @@
+CRITICAL - 2021-07-24 07:07:51 --> Invalid file: template/template_frontend.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/templa...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('template/templa...', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-24 07:09:33 --> Invalid file: backend/v_dashboard.php
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/v_dashb...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('backend/v_dashb...', Array, true)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Admin.php(11): view('backend/v_dashb...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-24 18:37:44 --> syntax error, unexpected identifier "a", expecting ";" or "{"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,133 @@
+CRITICAL - 2021-09-25 23:13:53 --> Class "App\Controllers\ModelKampusAsal" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\KampusAsal->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-25 23:14:34 --> Class "App\Controllers\ModelKampusAsal" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\KampusAsal->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-25 23:17:29 --> Class "App\Controllers\ModelKampusAsal" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\KampusAsal->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-25 23:18:41 --> Class "App\Controllers\ModelKampusAsal" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\KampusAsal->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-25 23:18:54 --> Class "App\Controllers\ModelKampusAsal" not found
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\KampusAsal->__construct()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-09-25 23:19:51 --> Undefined variable $ptn_asal
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:20:47 --> Undefined array key "ptn_asal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:20:53 --> Undefined array key "ptn_asal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:20:56 --> Undefined array key "ptn_asal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:21:34 --> Undefined array key "kampusasal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:21:57 --> Undefined array key "$kampusasal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-25 23:22:26 --> Undefined array key "kampusasal"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\admin\v_kampusasal.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_kampusa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\KampusAsal.php(21): view('admin/v_kampusa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\KampusAsal->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KampusAsal))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-09-25 23:42:09 --> Operand should contain 1 column(s)
+CRITICAL - 2021-09-25 23:42:09 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelAgama.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Agama.php(31): App\Models\ModelAgama->insertData(Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Agama->insertData()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

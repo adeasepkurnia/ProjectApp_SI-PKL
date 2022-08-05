@@ -1,0 +1,138 @@
+ERROR - 2021-10-04 04:30:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-10-04 04:30:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelTa.php(45): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Auth.php(158): App\Models\ModelTa->statusTa()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Auth->loginSiswa()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-10-04 04:34:00 --> Unknown column 'stat_daftarmasuk' in 'where clause'
+CRITICAL - 2021-10-04 04:34:00 --> Unknown column 'stat_daftarmasuk' in 'where clause'
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelDaftarmasuk.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Daftarmasuk.php(21): App\Models\ModelDaftarmasuk->getDaftarmasuk()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Daftarmasuk->index()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftarmasuk))
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-04 04:36:10 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:38:01 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:39:25 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:39:51 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:40:05 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:41:58 --> Undefined variable $nama_file
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-04 04:42:15 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-04 04:43:57 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->insertData()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-04 19:54:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-10-04 19:54:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelTa.php(45): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Auth.php(158): App\Models\ModelTa->statusTa()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Auth->loginSiswa()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-04 19:55:23 --> Undefined variable $calkar
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\siswa\v_dashboard.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 239)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('siswa/v_dashboa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Siswa.php(25): view('siswa/v_dashboa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-04 19:55:59 --> Undefined array key "id_calkar"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\siswa\v_dashboard.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 239)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('siswa/v_dashboa...', Array, true)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Siswa.php(25): view('siswa/v_dashboa...', Array)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-04 21:17:24 --> session_start(): Failed to decode session object. Session has been destroyed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start()...', 'C:\\xampp\\htdocs...', 1001)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Session\Session.php(1001): session_start()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Session\Session.php(249): CodeIgniter\Session\Session->startSession()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(736): CodeIgniter\Session\Session->start()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\Services.php(721): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Config\BaseService.php(263): CodeIgniter\Config\Services::session()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1053): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Filters\FilterUser.php(28): session()
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\Filters\Filters.php(181): App\Filters\FilterUser->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('assets/vendor/j...', 'before')
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}

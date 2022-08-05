@@ -1,0 +1,232 @@
+ERROR - 2021-07-29 04:30:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-07-29 04:30:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelAuth.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Auth.php(49): App\Models\ModelAuth->login_user('admin@gmail.com', '1234')
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Auth->cek_login_user()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-29 05:13:40 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\User.php(57): App\Models\ModelUser->deleteData('20')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->editData('20')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 05:14:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\User.php(57): App\Models\ModelUser->deleteData('20')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->editData('20')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 05:19:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\User.php(57): App\Models\ModelUser->deleteData('20')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\User->editData('20')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 16:22:53 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-29 18:10:55 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Admin.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(900): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-07-29 21:39:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-07-29 21:39:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelAdmin.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Admin.php(30): App\Models\ModelAdmin->detailSetting()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Admin->setting()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-07-29 21:39:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-07-29 21:39:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-07-29 21:43:31 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 21:43:31 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:19:04 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:19:04 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:21:33 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:21:33 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:22:28 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:22:28 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:22:31 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:22:31 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:22:59 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:22:59 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:24:14 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:24:14 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2021-07-29 22:26:02 --> Table 'si-pkl.tb_setting' doesn't exist
+CRITICAL - 2021-07-29 22:26:02 --> Table 'si-pkl.tb_setting' doesn't exist
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\app\Views\templat\template_frontend.php(7): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\View\View.php(246): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\Common.php(1271): CodeIgniter\View\View->render('v_home', Array, true)
+#9 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Home.php(13): view('v_home', Array)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}

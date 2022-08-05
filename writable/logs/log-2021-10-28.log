@@ -1,0 +1,125 @@
+CRITICAL - 2021-10-28 04:43:29 --> Undefined variable $id_siswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 287)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-28 04:46:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(303): CodeIgniter\Model->__call('editAbsensi', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-28 04:47:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(303): CodeIgniter\Model->__call('editPengajuanpk...', Array)
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-28 04:49:02 --> Undefined array key "id_siswa"
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelPengajuanpkl.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(303): App\Models\ModelPengajuanpkl->editData(Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-28 04:50:58 --> Undefined variable $id_siswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 287)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-28 04:52:07 --> Undefined variable $id_siswa
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 287)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-28 05:29:50 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(387): strtr('INSERT INTO `tb...', Array)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tb...', Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelPengajuanpkl.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(302): App\Models\ModelPengajuanpkl->insertData(Array)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-10-28 05:32:25 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelpengajuanpkl
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-28 05:36:26 --> Undefined property: App\Controllers\Pengajuanpkl::$Modelpengajuanpkl
+#0 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-28 05:41:58 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(387): strtr('INSERT INTO `tb...', Array)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tb...', Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelPengajuanpkl.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(302): App\Models\ModelPengajuanpkl->insertData(Array)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-10-28 05:53:15 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(387): strtr('INSERT INTO `tb...', Array)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tb...', Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelPengajuanpkl.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(304): App\Models\ModelPengajuanpkl->insertData(Array)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-10-28 05:54:06 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(387): strtr('INSERT INTO `tb...', Array)
+#1 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tb...', Array)
+#2 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\Project_TA\TA-APP\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#5 C:\xampp\htdocs\Project_TA\TA-APP\app\Models\ModelPengajuanpkl.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 C:\xampp\htdocs\Project_TA\TA-APP\app\Controllers\Pengajuanpkl.php(300): App\Models\ModelPengajuanpkl->insertData(Array)
+#7 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(928): App\Controllers\Pengajuanpkl->simpanPengajuanpkl()
+#8 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuanpkl))
+#9 C:\xampp\htdocs\Project_TA\TA-APP\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Project_TA\TA-APP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Project_TA\TA-APP\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
